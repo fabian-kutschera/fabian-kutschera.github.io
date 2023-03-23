@@ -1,13 +1,12 @@
 - name: NorthQuake 2022
-  image: https://hac.is/wp-content/uploads/NQfeature.png
   link: https://hac.is/wp-content/uploads/NorthQuakeIV-2022.pdf#page=47
+  image: https://hac.is/wp-content/uploads/NQfeature.png
   description: Modeling potential earthquake-tsunami scenarios from earthquake rupture simulations on the Húsavík-Flatey Fault Zone, North Iceland
 - name: EGU General Assembly 2022
   link: https://meetingorganizer.copernicus.org/EGU22/EGU22-13387.html
-  image: https://egu22.eu/template_egu22_logo.svg
+  image: https://cdn.pixabay.com/photo/2016/06/25/12/55/art-1478831_960_720.jpg
   description: Physics-based earthquake-tsunami modelling of the Húsavík-Flatey transform fault zone in North Iceland
 - name: EGU General Assembly 2021
   link: https://meetingorganizer.copernicus.org/EGU21/EGU21-15891.html
-  image: https://egu21.eu/template_EGU21_logo.svg
+  image: https://cdn.pixabay.com/photo/2016/06/25/12/55/art-1478831_960_720.jpg
   description: Linking dynamic earthquake rupture to tsunami modeling for the Húsavík-Flatey transform fault system in North Iceland!- name: Fourth Project
-  

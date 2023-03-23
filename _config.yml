@@ -18,21 +18,21 @@ site-keywords: Site, Template, Theme
 favicon-url: 
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+heroimage: /assets/images/eta_sE_side.png
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
 email: fabian.kutschera@geophysik.uni-muenchen.de
-facebook_username: /
+# facebook_username: /
 twitter_username: KutscheraFabian
-instagram_username: /
+# instagram_username: /
 linkedin_username: fabian-kutschera
 github_username:  fabian-kutschera
-youtube_channel_id: /
-reddit_username: /
-behance_username: /
-dribbble_username: /
-spotify_username: /
+# youtube_channel_id: /
+# reddit_username: /
+# behance_username: /
+# dribbble_username: /
+# spotify_username: /
 
 # Google Analytics
 google-analytics: 

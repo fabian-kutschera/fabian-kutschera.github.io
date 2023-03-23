@@ -7,11 +7,11 @@ url: ''
 baseurl: 
 
 # Title of the Site
-title: What A Theme
+title: Fabian Kutschera
 # Description of the Site
-description: A customizable Jekyll portfolio theme
+description: MSc Geophysics Student @ LMU and TU Munich
 # URL of Image of the Site
-site-image: /WhatATheme/assets/images/meta.jpg
+site-image: /assets/images/Bewerbungsfoto_Hemd_quadrat.jpg
 # Keywords of the Site
 site-keywords: Site, Template, Theme
 # URL for the Image of custom Favicon
@@ -22,32 +22,32 @@ heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
-email: thedevslot@gmail.com
-facebook_username: thedevslot
-twitter_username: thedevslot
-instagram_username: thedevslot
-linkedin_username: thedevslot
-github_username:  thedevslot
-youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
+email: fabian.kutschera@geophysik.uni-muenchen.de
+facebook_username: /
+twitter_username: KutscheraFabian
+instagram_username: /
+linkedin_username: fabian-kutschera
+github_username:  fabian-kutschera
+youtube_channel_id: /
 reddit_username: /
 behance_username: /
 dribbble_username: /
 spotify_username: /
 
 # Google Analytics
-google-analytics: UA-163806439-1
+google-analytics: 
 
 # Disqus
-disqus-shortname: thedevslot
+disqus-shortname: fabian-kutschera
 
 # Name of the Author
-author-name: TheDevsLot
+author-name: Fabian Kutschera
 # URL for the Image of the Author
 author-image: /assets/images/Bewerbungsfoto_Hemd_quadrat.jpg
 # 60 Words About the Author
-author-about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget pharetra velit, dapibus bibendum ex. Maecenas vitae laoreet mauris, ac luctus metus. Aliquam luctus velit vel ipsum feugiat, vel venenatis mauris hendrerit. Sed at vulputate sapien, eget vehicula dolor. Aliquam volutpat pulvinar neque sit amet sodales.
+author-about: I am currently attending the Masters Programme in Geophysics offered by LMU and TUM in Munich. My focus lies on seismology and tsunami genesis caused by coseismic seafloor displacement. I already combined both of these fields in my Bachelors Thesis, which covered earthquake-tsunami modelling in North Iceland, following a physics-based approach and using high performance computing. Extended results were presented at the virtual EGU General Assembly 2021 as well as on-site at EGU GA 2022 and at NorthQuake 2022. In addition to the research field, I gained first experience within the reinsurance industry and supported the Cat Risk Management Team (R&D, GIS and Portfolio Analytics) at Allianz SE Reinsurance.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https://github.com/thedevslot
+author-url: https://github.com/fabian-kutschera
 
 # SASS
 sass:

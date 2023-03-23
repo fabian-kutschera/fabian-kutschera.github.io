@@ -36,7 +36,8 @@
                 {% endunless %}
                 {% endfor %}
                 <li>
-                    <a target="_blank" href="{{site.url}}{{site.baseurl}}/feed.xml">Subscribe via RSS</a>
+                    <!--<a target="_blank" href="{{site.url}}{{site.baseurl}}/feed.xml">Subscribe via RSS</a>-->
+                    <a href="{{sitepage.url | absolute_url}}">{{sitepage.title}}</a>
                 </li>
             </div>
 

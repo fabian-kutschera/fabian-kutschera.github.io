@@ -26,7 +26,7 @@
             </div>
 
             <!--Link Section-->
-            <div class="column has-text-white is-left">
+            <div class="column has-text-white has-text-centered">
                 <h3>More Links</h3>
                 {% for sitepage in site.html_pages offset: 4 %}
                 {% unless sitepage.url == '/'  limit: 2 %}
@@ -41,7 +41,7 @@
             </div>
             
             <!--Blog-post Section-->
-            <div class="column has-text-white is-left">
+            <div class="column has-text-white has-text-centered">
                 <h3>Recent Posts</h3>
                 {% for post in site.posts offset: 0 limit:3 %}
                 <li>
@@ -49,6 +49,7 @@
                 </li>
                 {% endfor %}
             </div>
+            
         </div>
     </div>
     <div class="has-background-black has-text-centered has-text-white" id="credits">

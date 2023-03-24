@@ -26,22 +26,22 @@
             </div>
 
             <!--Link Section-->
-            <div class="column has-text-white has-text-left-desktop has-text-left-mobile">
+            <div class="column has-text-white has-text-left-desktop has-text-centered-mobile">
                 <h3>More Links</h3>
-                {% for sitepage in site.html_pages offset: 4 %}
-                {% unless sitepage.url == '/'  limit: 2 %}
+                {% for sitepage in site.html_pages offset: 2 %}
+                <!--{% unless sitepage.url == '/'  limit: 2 %} //-->
                 <li>
                     <a href="{{sitepage.url | absolute_url}}">{{sitepage.title}}</a>
                 </li>
-                {% endunless %}
+                <!--{% endunless %} //-->
                 {% endfor %}
-                <li>
+                <!--<li>
                     <a target="_blank" href="{{site.url}}{{site.baseurl}}/feed.xml">Subscribe via RSS</a>
-                </li>
+                </li> //-->
             </div>
-            
+
             <!--Blog-post Section-->
-            <div class="column has-text-white has-text-left-desktop has-text-left-mobile">
+            <div class="column has-text-white has-text-left-desktop has-text-centered-mobile">
                 <h3>Recent Posts</h3>
                 {% for post in site.posts offset: 0 limit:3 %}
                 <li>

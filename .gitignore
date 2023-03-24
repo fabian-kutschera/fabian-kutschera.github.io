@@ -70,3 +70,8 @@ build-iPhoneSimulator/
 # .rubocop-https?--*
 
 # End of https://www.toptal.com/developers/gitignore/api/jekyll,ruby
+
+# Exclude blog posts - use a template only
+/_posts/2020-04-22-how-to-install-whatatheme.md
+/_posts/2020-04-21-what-is-jekyll-how-to-use-it.md
+

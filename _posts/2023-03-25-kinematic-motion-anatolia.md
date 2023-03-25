@@ -13,3 +13,6 @@ tags:
 **Images in the post will look like:**<br>
 ![Kinematic motion](../assets/images/Anatolia_GNSSmotion.png)
 
+
+
+Are you curious how the *title figure* was created? Check out [How to use GIMP for figure processing](https://fabian-kutschera.github.io/blog/how-to-gimp).

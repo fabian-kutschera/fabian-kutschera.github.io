@@ -1,7 +1,7 @@
 ---
 title: Present-day kinematic motion of Anatolia
 layout: post
-post-image: "https://raw.githubusercontent.com/fabian-kutschera/fabian-kutschera.github.io/master/assets/images/Anatolia_GNSSmotion.png"
+post-image: "https://raw.githubusercontent.com/fabian-kutschera/fabian-kutschera.github.io/master/assets/images/regional_tectonics.png"
 description: A first blog post about the present-day kinematic motion of Anatolia with respect to the AT-EU Euler pole.
 tags:
 - tectonics

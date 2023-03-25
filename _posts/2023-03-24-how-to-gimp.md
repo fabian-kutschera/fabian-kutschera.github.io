@@ -15,29 +15,30 @@ I was lucky, because this figure has already the required size of **1280x720**, 
 
 1. Load the *.png* figure into GIMP.
 
-![Load figure into GIMP(/fabian-kutschera.github.io/assets/images/gimp/gimp_01.png)
+![Load figure into GIMP](../assets/images/gimp/gimp_01.png)
 
 2. Check the size of the figure (should be 1280x720) and potentially rescale. In case resizing is necessary, please consult:
 - [Gimp Quickies](https://www.gimp.org/tutorials/GIMP_Quickies)
 - [Use GIMP to Resize an Image](https://guides.lib.umich.edu/c.php?g=282942&p=1888162)
 
-![Check size](/fabian-kutschera.github.io/assets/images/gimp/gimp_02.png)
+![Check size](../assets/images/gimp/gimp_02.png)
 
 3. Blur the image using a Gaussian Blur, which performs an averaging of neighboring pixels with the normal distribution as weighting.
 
-![Apply blurring filter](/fabian-kutschera.github.io/assets/images/gimp/gimp_03.png)
+![Apply blurring filter](../assets/images/gimp/gimp_03.png)
 
 4. Click on the figure on the right hand side and adjust the opacity, such that the white title can be read better later on (here changed to 80%).
 
-![Change opacity](/fabian-kutschera.github.io/assets/images/gimp/gimp_04.png)
+![Change opacity](../assets/images/gimp/gimp_04.png)
 
 5. Place a textbox over the entire figure. Select a centered justification, choose the color white and and adjust the font (here 140). 
 
-![Load figure into GIMP(/fabian-kutschera.github.io/assets/images/gimp/gimp_05.png)
+![Load figure into GIMP(../assets/images/gimp/gimp_05.png)
 
 6. Select *Export As...* and choose again *.png*
 
-![Export result](/fabian-kutschera.github.io/assets/images/gimp/gimp_06.png)
+![Export result](../assets/images/gimp/gimp_06.png)
 
 
-Now the figure including a title for the [next blog post](https://fabian-kutschera.github.io/blog/kinematic-motion-anatolia) is prepared.
+
+Now the figure including a title for the [next blog post](kinematic-motion-anatolia) is prepared.

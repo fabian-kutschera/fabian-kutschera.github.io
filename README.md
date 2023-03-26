@@ -4,7 +4,7 @@
 
 <div align="center"> <h2 align="center"> Scan me! </h2> </div>
 
-![QR Code linking to homepage](assets/images/qr-code.png)
+<div align="center"> <img src="assets/images/qr-code.png" width="50%" height="50%" title="QR Code linking to homepage"> </div>
 
 ---
 

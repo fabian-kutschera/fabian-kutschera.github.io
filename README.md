@@ -1,6 +1,11 @@
 # Homepage: [https://fabian-kutschera.github.io](https://fabian-kutschera.github.io)
 
 ---
+
+<div align="center"> <h2 align="center"> Scan me! </h2> </div>
+
+![QR Code linking to homepage](assets/images/qr-code.png)
+
 ---
 
 This Homepage was created using:

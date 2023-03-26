@@ -17,7 +17,7 @@ I was lucky, because this figure has already the required size of **1280x720**, 
 
 	![Load figure into GIMP](../assets/images/gimp/gimp_01.png)
 
-2. Check the size of the figure (should be 1280x720) and potentially rescale. In case resizing is necessary, please consult [Gimp Quickies](https://www.gimp.org/tutorials/GIMP_Quickies) or [Use GIMP to Resize an Image](https://guides.lib.umich.edu/c.php?g=282942&p=1888162)
+2. Check the size of the figure (should be 1280x720) and potentially rescale. In case resizing is necessary, please consult [Gimp Quickies](https://www.gimp.org/tutorials/GIMP_Quickies) or [Use GIMP to Resize an Image](https://guides.lib.umich.edu/c.php?g=282942&p=1888162).
 
 	![Check size](../assets/images/gimp/gimp_02.png)
 

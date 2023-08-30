@@ -9,7 +9,7 @@ baseurl:
 # Title of the Site
 title: Fabian Kutschera
 # Description of the Site
-description: MSc Geophysics Student @ LMU and TU Munich
+description: Geopyhsics PhD Student @ Scripps (UCSD)
 # URL of Image of the Site
 site-image: /assets/images/Bewerbungsfoto_Hemd_quadrat.jpg
 # Keywords of the Site
@@ -22,7 +22,7 @@ heroimage: /assets/images/background_mesh_HFFZ_eta.png
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
-email: fabian.kutschera@geophysik.uni-muenchen.de
+email: fkutschera@ucsd.edu
 # facebook_username: /
 twitter_username: KutscheraFabian
 # instagram_username: /
@@ -45,7 +45,7 @@ author-name: Fabian Kutschera
 # URL for the Image of the Author
 author-image: /assets/images/Bewerbungsfoto_Hemd_quadrat.jpg
 # 60 Words About the Author
-author-about: I just completed the Masters Programme in Geophysics offered by LMU and TUM in Munich. My focus lies on seismology and tsunami genesis caused by coseismic seafloor displacement. I already combined both of these fields in my Bachelors Thesis, which covered earthquake-tsunami modelling in North Iceland, following a physics-based approach and using high performance computing. Extended results were presented at the virtual EGU General Assembly 2021 as well as on-site at EGU GA 2022 and at NorthQuake 2022. In addition to the research field, I gained first experience within the reinsurance industry and supported the Cat Risk Management Team (R&D, GIS and Portfolio Analytics) at Allianz SE Reinsurance. Starting in September 2023, I will be a Geopyhsics PhD candidate at Scripps Institution of Oceanography, UC San Diego.
+author-about: I recently completed the Masters Programme in Geophysics offered by LMU and TUM in Munich. So far, my focus lies on seismology and tsunami genesis caused by coseismic seafloor displacement. I combined both of these fields in my MSc Thesis about the 2020 Mw 7.0 Samos earhtquake and tsunami and in my BSc Thesis. Latter covered earthquake-tsunami modelling in North Iceland, following a physics-based approach and using high performance computing. Extended results were presented at the virtual EGU General Assembly 2021, on-site at EGU GA 2022 as well as at NorthQuake 2022. Check out the [publications tab](https://fabian-kutschera.github.io/publications). In addition to the research field, I gained first experience within the reinsurance industry and supported the Cat Risk Management Team (R&D, GIS and Portfolio Analytics) at Allianz SE Reinsurance. In September 2023, I start as a Geopyhsics PhD candidate at Scripps Institution of Oceanography, UC San Diego.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/fabian-kutschera
 

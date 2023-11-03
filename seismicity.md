@@ -10,4 +10,4 @@ This page is automatically updated once the United States Geological Survey ([US
 For this automated process the 7-day [Real-time GeoJSON Feed](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) is used, as it will have the best performance and availability.
 
 Events are displayed top (newest) to bottom (oldest). No liability is taken for the accuracy, completeness or timeliness of the data/figures.
-![us7000l7jv](output/us7000l7jv.png)
+![us7000l7jv](assets/images/seismicity/us7000l7jv.png)

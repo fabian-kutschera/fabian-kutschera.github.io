@@ -175,7 +175,7 @@ for i in range(len(df)):
                 lines = f.readlines()
                 for i, line in enumerate(lines):
                     if line.startswith("Events are displayed top"):
-                        lines[i] = lines[i].strip() + "\n![{}](assets/images/seismicity/{}.png)\n".format(id_code,id_code)
+                        lines[i] = lines[i].strip() + "\n\n![{}](assets/images/seismicity/{}.png)\n".format(id_code,id_code)
                 f.seek(0)
                 for line in lines:
                     f.write(line)

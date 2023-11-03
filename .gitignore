@@ -76,3 +76,4 @@ build-iPhoneSimulator/
 /_posts/2020-04-21-what-is-jekyll-how-to-use-it.md
 /_posts/2023-03-24-sample-post.md
 
+*.DS_Store

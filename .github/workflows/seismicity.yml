@@ -1,0 +1,48 @@
+name: Significant Earthquakes
+
+on:
+  schedule:
+    - cron: '0 14 * * *'
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -el {0}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Setup miniconda
+        uses: conda-incubator/setup-miniconda@v2
+        with:
+          channels: conda-forge
+          auto-activate-base: true
+          activate-environment: ""
+      - name: Install dependencies
+        run: |
+          conda init bash
+          source /home/runner/.bashrc
+          source /usr/share/miniconda/bin/activate
+          conda install --yes --file .github/workflows/requirements.txt
+          pip install pandas-geojson
+      - name: Run script
+        run: python assets/seismicity.py
+      - name: Setup git config
+        run: |
+          # Setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
+          # Inspired by https://lannonbr.com/blog/2019-12-09-git-commit-in-actions/
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+      - name: Commit
+        run: |
+          # Stage the file, commit and push
+          # Timestamp inspired by https://askubuntu.com/questions/991712/get-current-date-and-time-to-commit-message-to-git
+          timestamp=$(date +"%D %T")
+          git add .
+          git commit -m "Update on $timestamp"
+          git push

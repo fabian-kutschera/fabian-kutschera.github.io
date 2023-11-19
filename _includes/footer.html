@@ -28,8 +28,8 @@
             <!--Link Section-->
             <div class="column has-text-white has-text-left-desktop has-text-centered-mobile">
                 <h3>More Links</h3>
-                {% for sitepage in site.html_pages offset: limit:2 %}
-                {% unless sitepage.url == '/' limit:2 %}
+                {% for sitepage in site.html_pages offset: 0 limit:2 %}
+                {% unless sitepage.url == '/' 0 limit:2 %}
                 <!--{% for sitepage in site.html_pages offset: 2 %} //-->
                 <!--{% unless sitepage.url == '/'  limit: 2 %} //-->
                 <li>

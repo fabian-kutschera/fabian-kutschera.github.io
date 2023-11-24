@@ -11,6 +11,8 @@ For this automated process the 7-day [Real-time GeoJSON Feed](https://earthquake
 
 Events are displayed top (newest) to bottom (oldest). No liability is taken for the accuracy, completeness or timeliness of the data/figures.
 
+![us6000lqf9](assets/images/seismicity/us6000lqf9.png)
+
 ![us6000lq00](assets/images/seismicity/us6000lq00.png)
 
 ![us6000lp12](assets/images/seismicity/us6000lp12.png)

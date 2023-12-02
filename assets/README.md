@@ -13,3 +13,4 @@ No significant earthquakes found on 2023-11-16, week no. 46
 3 significant earthquake(s) found on 2023-11-28, week no. 48
 2 significant earthquake(s) found on 2023-11-30, week no. 48
 3 significant earthquake(s) found on 2023-12-01, week no. 48
+4 significant earthquake(s) found on 2023-12-02, week no. 48

@@ -29,7 +29,7 @@
             <div class="column has-text-white">
                 <h3>More Links</h3>
                 {% assign link_count = 0 %}
-                {% for sitepage in site.html_pages offset: 2 %}
+                {% for sitepage in site.html_pages offset: 3 %}
                     {% unless sitepage.url == '/' %}
                         {% if link_count < 4 %}
                             <li>

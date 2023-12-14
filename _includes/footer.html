@@ -31,7 +31,7 @@
                 {% assign link_count = 0 %}
                 {% for sitepage in site.html_pages offset: 2 %}
                     {% unless sitepage.url == '/' %}
-                        {% if link_count < 2 %}
+                        {% if link_count < 4 %}
                             <li>
                                 <a href="{{sitepage.url | absolute_url}}">{{sitepage.title}}</a>
                             </li>

@@ -26,12 +26,19 @@
             </div>
 
             <!--Link Section-->
+            <!--Link Section-->
             <div class="column has-text-white">
                 <h3>More Links</h3>
-                {% for sitepage in site.html_pages offset: 4 limit:4 %}
-                <li>
-                    <a href="{{sitepage.url | absolute_url}}">{{sitepage.title}}</a>
-                </li>
+                {% assign link_count = 0 %}
+                {% for sitepage in site.html_pages offset: 1 %}
+                    {% unless sitepage.url == '/' %}
+                        {% if link_count < 4 %}
+                            <li>
+                                <a href="{{sitepage.url | absolute_url}}">{{sitepage.title}}</a>
+                            </li>
+                            {% assign link_count = link_count | plus: 1 %}
+                        {% endif %}
+                    {% endunless %}
                 {% endfor %}
             </div>
 

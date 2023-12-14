@@ -26,13 +26,12 @@
             </div>
 
             <!--Link Section-->
-            <!--Link Section-->
             <div class="column has-text-white">
                 <h3>More Links</h3>
                 {% assign link_count = 0 %}
-                {% for sitepage in site.html_pages offset: 1 %}
+                {% for sitepage in site.html_pages offset: 3 %}
                     {% unless sitepage.url == '/' %}
-                        {% if link_count < 4 %}
+                        {% if link_count < 3 %}
                             <li>
                                 <a href="{{sitepage.url | absolute_url}}">{{sitepage.title}}</a>
                             </li>

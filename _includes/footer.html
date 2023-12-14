@@ -28,12 +28,10 @@
             <!--Link Section-->
             <div class="column has-text-white">
                 <h3>More Links</h3>
-                {% for sitepage in site.html_pages offset: 4 %}
-                {% unless sitepage.url == '/'  limit: 4 %}
+                {% for sitepage in site.html_pages offset: 0 limit:4 %}
                 <li>
                     <a href="{{sitepage.url | absolute_url}}">{{sitepage.title}}</a>
                 </li>
-                {% endunless %}
                 {% endfor %}
             </div>
 

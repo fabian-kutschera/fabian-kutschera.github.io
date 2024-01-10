@@ -1,3 +1,7 @@
+- name: EGU General Assembly 2024
+  link: https://meetingorganizer.copernicus.org/EGU24/EGU24-19510.html
+  image: /assets/images/template_egu.jpg
+  description: Towards automated rapid earthquake dynamics characterization: a proof of concept based on the 2024 Mw7.5 Noto Peninsula, Japan, earthquake
 - name: SCEC Annual Meeting 2023
   link: https://www.scec.org/publication/13236
   image: https://vectorlogoseek.com/wp-content/uploads/2020/02/southern-california-earthquake-center-scec-vector-logo.png

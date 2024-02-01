@@ -41,3 +41,4 @@ No significant earthquakes found on 2023-12-18, week no. 51
 4 significant earthquake(s) found on 2024-01-22, week no. 4
 5 significant earthquake(s) found on 2024-01-30, week no. 5
 4 significant earthquake(s) found on 2024-01-31, week no. 5
+3 significant earthquake(s) found on 2024-02-01, week no. 5

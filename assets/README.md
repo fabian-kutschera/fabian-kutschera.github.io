@@ -65,3 +65,4 @@ No significant earthquakes found on 2024-02-22, week no. 8
 1 significant earthquake(s) found on 2024-03-03, week no. 9
 2 significant earthquake(s) found on 2024-03-04, week no. 10
 1 significant earthquake(s) found on 2024-03-05, week no. 10
+1 significant earthquake(s) found on 2024-03-12, week no. 11

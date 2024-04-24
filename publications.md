@@ -12,6 +12,7 @@ layout: page
 
 <div style="text-align: left"> <b>Kutschera, F.</b>, Jia, Z., Oryan, B., Wong, J. W. C., Fan, W., & Gabriel, A.-A. (2024). Rapid earthquake-tsunami modeling: The multi-event, multi-segment complexity of the 2024 Mw 7.5 Noto Peninsula Earthquake governs tsunami generation. https://doi.org/10.31223/X5ZX1S </div>
 
+
 <div style="text-align: left"> Becerril, C., Sladen, A., Ampuero, J.-P., Vidal-Moreno, P. J., Gonzalez-Herraez, M., <b>Kutschera, F.</b>, Gabriel, A.-A., & Bouchette, F. (2024). Towards tsunami early-warning with Distributed Acoustic Sensing: Expected seafloor strains induced by tsunamis. https://doi.org/10.22541/essoar.171052484.46251426/v1 </div>
 
 ---

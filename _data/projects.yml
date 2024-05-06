@@ -1,3 +1,7 @@
+- name: 12th EGU Galileo Conference
+  link: https://meetingorganizer.copernicus.org/GC12-FibreOptic/GC12-FibreOptic-12.html
+  image: /assets/images/galileo_conference.png
+  description: Towards tsunami early-warning with Distributed Acoustic Sensing - Expected seafloor strains induced by tsunamis
 - name: EGU General Assembly 2024
   link: https://meetingorganizer.copernicus.org/EGU24/EGU24-19510.html
   image: /assets/images/template_egu.jpg

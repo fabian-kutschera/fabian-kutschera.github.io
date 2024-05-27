@@ -5,11 +5,11 @@
 - name: 12th EGU Galileo Conference
   link: https://meetingorganizer.copernicus.org/GC12-FibreOptic/GC12-FibreOptic-12.html
   image: /assets/images/template_GalileoEGU2024.png
-  description: Towards tsunami early-warning with Distributed Acoustic Sensing - Expected seafloor strains induced by tsunamis
+  description: "Towards tsunami early-warning with Distributed Acoustic Sensing: Expected seafloor strains induced by tsunamis"
 - name: EGU General Assembly 2024
   link: https://meetingorganizer.copernicus.org/EGU24/EGU24-19510.html
   image: /assets/images/template_egu.jpg
-  description: Towards automated rapid earthquake dynamics characterization - a proof of concept based on the 2024 Mw7.5 Noto Peninsula, Japan, earthquake
+  description: "Towards automated rapid earthquake dynamics characterization: a proof of concept based on the 2024 Mw7.5 Noto Peninsula, Japan, earthquake"
 - name: SCEC Annual Meeting 2023
   link: https://www.scec.org/publication/13236
   image: /assets/images/template_SouthernCaliforniaEarthquakeCenter2023.jpg

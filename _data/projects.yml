@@ -1,3 +1,7 @@
+- name: Japan Geoscience Union Meeting 2024
+  link: https://www.jpgu.org/meeting_e2024/sessionlist_en/detail/U-16.html
+  image: /assets/images/template_JpGU.png
+  description: Rapid earthquake-tsunami modeling - The multi-event, multi-segment complexity of the 2024 Mw 7.5 Noto Peninsula Earthquake governs tsunami generation
 - name: 12th EGU Galileo Conference
   link: https://meetingorganizer.copernicus.org/GC12-FibreOptic/GC12-FibreOptic-12.html
   image: /assets/images/template_GalileoEGU2024.png

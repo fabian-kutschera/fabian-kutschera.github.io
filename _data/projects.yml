@@ -1,3 +1,7 @@
+- name: NMEM 2024
+  link: https://www.nuquake.eu/NMEM2024
+  image: /assets/images/template_NMEM2024.png
+  description: "Kinematically Constrained, Linked and Fully Coupled Dynamic Rupture and Tsunami Modeling of the 2020, Mw 7.0 Samos Earthquake"
 - name: JpGU 2024
   link: https://www.jpgu.org/meeting_e2024/sessionlist_en/detail/U-16.html
   image: /assets/images/template_JpGU.jpg

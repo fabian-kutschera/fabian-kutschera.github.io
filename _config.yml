@@ -5,6 +5,8 @@ markdown: kramdown
 url: ''
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
 baseurl: 
+# https://github.com/jekyll/jekyll/issues/4705#issuecomment-200991736
+repository: fabian-kutschera/fabian-kutschera.github.io
 
 # Title of the Site
 title: Fabian Kutschera

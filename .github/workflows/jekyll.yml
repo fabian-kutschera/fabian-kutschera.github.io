@@ -22,6 +22,5 @@ jobs:
         export JEKYLL_VERSION=4.3.3
         docker run --rm \
         --volume="$PWD:/srv/jekyll:Z" \
-        -i jvconseil/jekyll-docker:$JEKYLL_VERSION \
-        jekyll build --trace
+        -t jvconseil/jekyll-docker:$JEKYLL_VERSION /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future --trace"
 

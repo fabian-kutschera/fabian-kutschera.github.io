@@ -83,6 +83,9 @@ defaults:
     values:
       layout: page
 
+# https://github.com/github/pages-gem/issues/399#issuecomment-301827749
+github: [metadata]
+
 # Exclude
 exclude:
   - .sass-cache/

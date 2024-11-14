@@ -13,6 +13,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    
+    # Clear Jekyll cache
+    - name: Clear Jekyll Cache
+      run: |
+        rm -rf ${{ github.workspace }}/.jekyll-cache
+    
     - name: Build the site in the jekyll/builder container
       run: |
         docker run \

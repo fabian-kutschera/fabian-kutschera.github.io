@@ -30,8 +30,8 @@ Here are **selected key take-aways** and lessons learned from the respective ses
 - During megathrust events, shallow slip is likely distributed onto multiple landward-vergent splay faults within the active domain of the outer wedge (Ledeczi et al., 2024), i.e., the outermost 30 km, which may add to seafloor displacement. 
 - The actual Cascadia subduction plate interface differs from Slab2.0 with more variable dip and along-strike steps suggesting segmentation of the megathrust. 
 - Locking to the "trench" is much more likely than not, while slip to the "trench" seems to be extremely likely.
-- T-shirt size-based rupture scenarios (S, M, L, XL, XXL) are use by emergency planners in Oregon and Washington.
-- Kinematic coupling and seismic coupling are two different concepts: 
+- T-shirt size-based rupture scenarios (S, M, L, XL, XXL) are used by emergency planners in Oregon and Washington.
+- Kinematic coupling and seismic coupling are two different concepts: 		
 	- Kinematic coupling specifies the ratio of slip deficit to long-term slip rate (with 1 &#61; not slipping). Here, the **slip rate deficit** is given by the difference between the current slip rate and the long-term average.
 	- Seismic coupling specifies the fraction of slip released seismically (with 1 &#61; not slipping). Here, **frictional locking** is given by the fault's response to slip.
 	- **Slip rate deficit &ne; frictional locking**.
@@ -41,7 +41,7 @@ Here are **selected key take-aways** and lessons learned from the respective ses
 - Source complexities affect the tsunami calculations significantly.
 - Tsunamis are affected by tidal variations, climate change, and coastal erosion, which needs to be accounted for.
 - Vulnerabilities are not stationary but change over time. 
-- Trailing waves (and not the leading wave) are sensitive to bathymetry errors (Sepúlveda et al., 2020): 
+- Trailing waves (and not the leading wave) are sensitive to bathymetry errors (Sepúlveda et al., 2020):		
 	- Higher sensitivity may be explained by shorter tsunami wavelengths and longer time during tsunami propagation.
 	- This point is also discussed by Kutschera et al. (2024).
 - Real-world complexities such as barrier islands, which are dynamic systems involving lagoon, marsh, beach, and other barriers, are important to understand to estimate coastal hazards.

@@ -20,30 +20,30 @@ The cross-disciplinary workshop focused on, but was not limited to, the Cascadia
 
 Contributions to this workshop were made through a set of presentations, roundtable discussions, lightning talks, and posters. I myself presented a poster during this workshop on *"Does source complexity govern tsunami generation?"* (see [conferences](https://fabian-kutschera.github.io/conferences) tab and the poster at the bottom of the page).
 
-Here are selected key take-aways and lessons learned from the respective sessions of the workshop and following the discussions:
+Here are **selected key take-aways** and lessons learned from the respective sessions of the workshop and following the discussions:
 - Long paleoseismological records that span several earthquake cycles are vital and require a high-quality age control.
 - Tsunami deposit mapping is a key benchmark for (dynamic) rupture models.
 - [Diatoms fossils](https://news.vt.edu/articles/2024/11/research-curiousconversations-dura.html), which are microscopic algae that help record environmental changes, can be used to better understand the impact of past earthquakes and tsunamis.
 - Diatoms seem to be better suited than foraminifera when modeling the coseismic uplift/subsidence.
 - There is strong evidence of no through-going megasplay fault offshore Washington or Oregon (Lucas et al., in review).
 - Other, smaller splay faults exist and are active.
-- During megathrust events, shallow slip is likely distributed onto multiple landward-vergent splay faults within the active domain of the outer wedge [[@Ledeczi_2024_LateQuaternarySurface]], i.e., the outermost 30 km, which may add to seafloor displacement. 
+- During megathrust events, shallow slip is likely distributed onto multiple landward-vergent splay faults within the active domain of the outer wedge (Ledeczi et al., 2024), i.e., the outermost 30 km, which may add to seafloor displacement. 
 - The actual Cascadia subduction plate interface differs from Slab2.0 with more variable dip and along-strike steps suggesting segmentation of the megathrust. 
 - Locking to the "trench" is much more likely than not, while slip to the "trench" seems to be extremely likely.
 - T-shirt size-based rupture scenarios (S, M, L, XL, XXL) are use by emergency planners in Oregon and Washington.
 - Kinematic coupling and seismic coupling are two different concepts:
 	- Kinematic coupling specifies the ratio of slip deficit to long-term slip rate (with $1=$not slipping). Here, the **slip rate deficit** is given by the difference between the current slip rate and the long-term average.
 	- Seismic coupling specifies the fraction of slip released seismically (with $1=$not slipping). Here, **frictional locking** is given by the fault's response to slip.
-	- **Slip rate deficit $\neq$ frictional locking**.
-	- See e.g., [[@Almeida_2018_CanUpdipLimit]] and [[@Lindsey_2021_SlipRateDeficit]]
+	- **Slip rate deficit &ne; frictional locking**.
+	- See e.g., Almeida et al. (2018) and Lindsey et al. (2021).
 - More offshore data is needed to probe fault friction and other parameters. 
 - Homogeneous (and simplified) slip models might not capture the full range of possible earthquake behaviors. 
 - Source complexities affect the tsunami calculations significantly.
 - Tsunamis are affected by tidal variations, climate change, and coastal erosion, which needs to be accounted for.
 - Vulnerabilities are not stationary but change over time. 
-- Trailing waves (and not the leading wave) are sensitive to bathymetry errors [[@Sepulveda_2020_ModelingUncertaintiesBathymetry]]:
+- Trailing waves (and not the leading wave) are sensitive to bathymetry errors (Sepúlveda et al., 2020):
 	- Higher sensitivity may be explained by shorter tsunami wavelengths and longer time during tsunami propagation.
-	- This point is also discussed by [[@Kutschera_2024_MultiSegmentComplexity2024]].
+	- This point is also discussed by Kutschera et al. (2024).
 - Real-world complexities such as barrier islands, which are dynamic systems involving lagoon, marsh, beach, and other barriers, are important to understand to estimate coastal hazards.
 - Assessing debris flow following a tsunami remains challenging, but needs to be addressed.
 - Physics-based models of earthquake generation and tsunami inundation should be incorporated into loss estimation.
@@ -51,7 +51,9 @@ Here are selected key take-aways and lessons learned from the respective session
 - Improved understanding of tsunami hazard if key towards improved assessment of tsunami risk.
 - Include higher resolution modeling for highest-risk tsunami scenarios.
 
-![[assets/2024_CRESCENT_poster.pdf]]
+<p align="center">
+  <img src="https://raw.githubusercontent.com/fabian-kutschera/fabian-kutschera.github.io/master/assets/2024_CRESCENT_poster.pdf" />
+</p>
 
 A huge thanks to the workshop planning committee, the organizers, and of course all participants. This concludes this blog post for now. No liability is taken for the accuracy, completeness or timeliness.
 

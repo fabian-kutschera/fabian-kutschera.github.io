@@ -58,8 +58,12 @@ Here are **selected key take-aways** and lessons learned from the respective ses
     </object>
 
 <embed src="https://raw.githubusercontent.com/fabian-kutschera/fabian-kutschera.github.io/master/assets/2024_CRESCENT_poster.pdf" type="application/pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://raw.githubusercontent.com/fabian-kutschera/fabian-kutschera.github.io/master/assets/2024_CRESCENT_poster.pdf">Download PDF</a>.</p>
 </embed>
+
+<object src="https://raw.githubusercontent.com/fabian-kutschera/fabian-kutschera.github.io/master/assets/2024_CRESCENT_poster.pdf" type="application/pdf">
+</object>
+
+<p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://raw.githubusercontent.com/fabian-kutschera/fabian-kutschera.github.io/master/assets/2024_CRESCENT_poster.pdf">Download PDF</a>.</p>
 
 A huge thanks to the workshop planning committee, the organizers, and of course all participants. This concludes this blog post for now. No liability is taken for the accuracy, completeness or timeliness.
 

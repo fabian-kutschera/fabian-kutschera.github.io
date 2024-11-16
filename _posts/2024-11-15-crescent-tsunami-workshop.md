@@ -51,14 +51,18 @@ Here are **selected key take-aways** and lessons learned from the respective ses
 - Improved understanding of tsunami hazard if key towards improved assessment of tsunami risk.
 - Include higher resolution modeling for highest-risk tsunami scenarios.
 
-<object class="pdf" 
-	data="https://raw.githubusercontent.com/fabian-kutschera/fabian-kutschera.github.io/master/assets/2024_CRESCENT_poster.pdf"
- 	width="800"
- 	height="500">
-    </object>
-
-<embed src="https://raw.githubusercontent.com/fabian-kutschera/fabian-kutschera.github.io/master/assets/2024_CRESCENT_poster.pdf" type="application/pdf">
-</embed>
+<iframe class="pdf" 
+	src="https://raw.githubusercontent.com/fabian-kutschera/fabian-kutschera.github.io/master/assets/2024_CRESCENT_poster.pdf"
+	width="800"
+	height="500">
+        </iframe>
+	
+<body>
+<embed class="pdf" 
+	src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf"
+	width="800"
+ height="500">
+ </body>
 
 <object src="https://raw.githubusercontent.com/fabian-kutschera/fabian-kutschera.github.io/master/assets/2024_CRESCENT_poster.pdf" type="application/pdf">
 </object>

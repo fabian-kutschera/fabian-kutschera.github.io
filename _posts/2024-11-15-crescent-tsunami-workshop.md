@@ -9,7 +9,7 @@ tags:
   - cascadia
 ---
 
-I just returned from an exciting and very informative tsunami topical workshop "[**From hazard to risk: The science of planning for future tsunamis**](https://cascadiaquakes.org/2024/07/10/11-7-8-2024-tsunami-topical-workshop/)" as part of 'CRESCENT ([Cascadia Region Earthquake Science Center](https://cascadiaquakes.org/))' in collaboration with the NSF-funded Cascadia Coastlines and Peoples Hazards Research Hub ([Cascadia Copes Hub](https://cascadiacopeshub.org/)). **46 attendees** came together at the University of Oregon, Eugene, and reviewed state-of-the-art of tsunami risk assessments, scientific gaps, and technical advancements to be implemented in the future.
+I just returned from an exciting and very informative tsunami topical workshop "[**From hazard to risk: The science of planning for future tsunamis**](https://cascadiaquakes.org/2024/07/10/11-7-8-2024-tsunami-topical-workshop/)" as part of "CRESCENT ([Cascadia Region Earthquake Science Center](https://cascadiaquakes.org/))" in collaboration with the NSF-funded Cascadia Coastlines and Peoples Hazards Research Hub ([Cascadia Copes Hub](https://cascadiacopeshub.org/)). **46 attendees** came together at the University of Oregon, Eugene, and reviewed state-of-the-art of tsunami risk assessments, scientific gaps, and technical advancements to be implemented in the future.
 
 The cross-disciplinary workshop focused on, but was not limited to, the Cascadia subduction zone and addressed four core themes:
 
@@ -55,12 +55,12 @@ Here are **selected key take-aways** and lessons learned from the respective ses
 
 <object class="pdf" 
             data=
-"https://raw.githubusercontent.com/fabian-kutschera/fabian-kutschera.github.io/master/assets/2024_CRESCENT_poster_comp.pdf"
+"assets/2024_CRESCENT_poster_comp.pdf"
             width="800"
             height="500">
 </object>
 
-<object data="https://github.com/fabian-kutschera/fabian-kutschera.github.io/blob/master/assets/2024_CRESCENT_poster.pdf" type="application/pdf" width="1000px" height="600px">;
+<object data="assets/2024_CRESCENT_poster.pdf" type="application/pdf" width="1000px" height="600px">;
 </object>
 
 <p>If your browser does not support PDFs, please download the PDF to view it: <a href="https://raw.githubusercontent.com/fabian-kutschera/fabian-kutschera.github.io/master/assets/2024_CRESCENT_poster.pdf">Download PDF</a>.</p>

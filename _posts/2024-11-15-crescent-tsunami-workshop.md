@@ -53,13 +53,13 @@ Here are **selected key take-aways** and lessons learned from the respective ses
 
 ---
 
+<p>If your browser does not support PDFs, please download the PDF to view it: <a href="https://raw.githubusercontent.com/fabian-kutschera/fabian-kutschera.github.io/master/assets/2024_CRESCENT_poster.pdf">Download PDF</a>.</p>
+
 <object class="pdf" 
 	data="../assets/2024_CRESCENT_poster_comp.pdf"
-        width="756"
-        height="1008">
+        width="850"
+        height="1000">
 </object>
-
-<p>If your browser does not support PDFs, please download the PDF to view it: <a href="https://raw.githubusercontent.com/fabian-kutschera/fabian-kutschera.github.io/master/assets/2024_CRESCENT_poster.pdf">Download PDF</a>.</p>
 
 ---
 

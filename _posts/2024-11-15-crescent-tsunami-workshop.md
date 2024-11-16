@@ -50,24 +50,15 @@ Here are **selected key take-aways** and lessons learned from the respective ses
 - Better alignment between the National Tsunami Warning Center (NTWC) and the Pacific Tsunami Early Warning Center (PTWC) should be pursued. 
 - Improved understanding of tsunami hazard if key towards improved assessment of tsunami risk.
 - Include higher resolution modeling for highest-risk tsunami scenarios.
-
-<iframe class="pdf" 
-	src="https://raw.githubusercontent.com/fabian-kutschera/fabian-kutschera.github.io/master/assets/2024_CRESCENT_poster.pdf"
-	width="800"
-	height="500">
-        </iframe>
 	
 <body>
 <embed class="pdf" 
-	src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf"
+	src="https://raw.githubusercontent.com/fabian-kutschera/fabian-kutschera.github.io/master/assets/2024_CRESCENT_poster.pdf"
 	width="800"
  height="500">
  </body>
 
-<object src="https://raw.githubusercontent.com/fabian-kutschera/fabian-kutschera.github.io/master/assets/2024_CRESCENT_poster.pdf" type="application/pdf">
-</object>
-
-<p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://raw.githubusercontent.com/fabian-kutschera/fabian-kutschera.github.io/master/assets/2024_CRESCENT_poster.pdf">Download PDF</a>.</p>
+<p>If your browser does not support PDFs, please download the PDF to view it: <a href="https://raw.githubusercontent.com/fabian-kutschera/fabian-kutschera.github.io/master/assets/2024_CRESCENT_poster.pdf">Download PDF</a>.</p>
 
 A huge thanks to the workshop planning committee, the organizers, and of course all participants. This concludes this blog post for now. No liability is taken for the accuracy, completeness or timeliness.
 

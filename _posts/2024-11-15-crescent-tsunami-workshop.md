@@ -55,8 +55,8 @@ Here are **selected key take-aways** and lessons learned from the respective ses
 
 <object class="pdf" 
 	data="../assets/2024_CRESCENT_poster_comp.pdf"
-        width="1512"
-        height="2016">
+        width="756"
+        height="1008">
 </object>
 
 <p>If your browser does not support PDFs, please download the PDF to view it: <a href="https://raw.githubusercontent.com/fabian-kutschera/fabian-kutschera.github.io/master/assets/2024_CRESCENT_poster.pdf">Download PDF</a>.</p>

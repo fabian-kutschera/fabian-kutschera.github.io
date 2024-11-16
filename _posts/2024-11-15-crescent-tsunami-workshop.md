@@ -50,13 +50,14 @@ Here are **selected key take-aways** and lessons learned from the respective ses
 - Better alignment between the National Tsunami Warning Center (NTWC) and the Pacific Tsunami Early Warning Center (PTWC) should be pursued. 
 - Improved understanding of tsunami hazard if key towards improved assessment of tsunami risk.
 - Include higher resolution modeling for highest-risk tsunami scenarios.
-	
-<body>
-<embed class="pdf" 
-	src="https://raw.githubusercontent.com/fabian-kutschera/fabian-kutschera.github.io/master/assets/2024_CRESCENT_poster.pdf"
+
+---
+
+<iframe class="pdf" 
+                src="https://raw.githubusercontent.com/fabian-kutschera/fabian-kutschera.github.io/master/assets/2024_CRESCENT_poster.pdf"
 	width="800"
- height="500">
- </body>
+	height="500">
+        </iframe>
 
 <p>If your browser does not support PDFs, please download the PDF to view it: <a href="https://raw.githubusercontent.com/fabian-kutschera/fabian-kutschera.github.io/master/assets/2024_CRESCENT_poster.pdf">Download PDF</a>.</p>
 

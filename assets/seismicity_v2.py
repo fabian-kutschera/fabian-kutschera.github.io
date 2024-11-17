@@ -174,7 +174,7 @@ for i in range(len(gdf)):
             
             fig.text(text=time_str, position="TL", offset="0.2/-0.2c", fill="white@50")
             
-            fig.colorbar(frame="af+l'Elevation [m]'")
+            fig.colorbar(frame=["af", "x+lElevation", "y+l[m]"])
             
             bounds = [[region[0],region[2]],
                       [region[0],region[3]],

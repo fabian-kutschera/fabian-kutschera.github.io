@@ -25,14 +25,14 @@ gdf = gpd.read_file(link)
 with open("assets/README.md", 'r+') as f:
     lines = f.readlines()     # lines is list of line, each element '...\n'
     if len(gdf) == 0:
-        eqs_found = "No significant earthquakes found on {}, week no. {}\n".format(date.strftime('%Y-%m-%d'), date.isocalendar().week)
+        eqs_found = "No significant earthquakes found on {}, week no. {}.\n".format(date.strftime('%Y-%m-%d'), date.isocalendar().week)
         print(eqs_found)
         lines.insert(0, eqs_found)  # you can use any index if you know the line index
         f.seek(0)                 # file pointer locates at the beginning to write the whole file again
         f.writelines(lines)       # write whole lists again to the same file
         exit()
     else:
-        eqs_found = "{} significant earthquake(s) found on {}, week no. {}\n".format(len(gdf), date.strftime('%Y-%m-%d'), date.isocalendar().week)
+        eqs_found = "{} significant earthquake(s) found on {}, week no. {}.\n".format(len(gdf), date.strftime('%Y-%m-%d'), date.isocalendar().week)
         print(eqs_found)
         lines.insert(0, eqs_found)  
         f.seek(0)                 

@@ -2,7 +2,7 @@ name: Significant Earthquakes
 
 on:
   schedule:
-    - cron: '0 14 * * *'
+    - cron: '*/10 * * * *'
 
 jobs:
   monitor:

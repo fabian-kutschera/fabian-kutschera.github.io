@@ -22,7 +22,7 @@ gdf = gpd.read_file(link)
 
 
 # update readme
-with open("assets/README.md", 'r+') as f:
+with open("assets/README.log", 'r+') as f:
     lines = f.readlines()     # lines is list of line, each element '...\n'
     if len(gdf) == 0:
         eqs_found = "No significant earthquakes found on {}, week no. {}.\n".format(date.strftime('%Y-%m-%d'), date.isocalendar().week)

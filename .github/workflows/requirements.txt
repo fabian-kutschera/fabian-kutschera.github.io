@@ -1,2 +1,4 @@
 pygmt
 pandas
+geopandas
+requests

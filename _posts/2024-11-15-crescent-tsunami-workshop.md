@@ -33,7 +33,7 @@ Here are **selected key take-aways** and lessons learned from the respective ses
 - T-shirt size-based rupture scenarios (S, M, L, XL, XXL) are used by emergency planners in Oregon and Washington.
 - Kinematic coupling and seismic coupling are two different concepts: <br/>
 	- Kinematic coupling specifies the ratio of slip deficit to long-term slip rate (with 1 &#61; not slipping). Here, the **slip rate deficit** is given by the difference between the current slip rate and the long-term average.
-	- Seismic coupling specifies the fraction of slip released seismically (with 1 &#61; not slipping). Here, **frictional locking** is given by the fault's response to slip.
+	- Seismic coupling specifies the fraction of slip released seismically (with 1 &#61; totally seismic). Here, **frictional locking** is given by the fault's response to slip.
 	- **Slip rate deficit &ne; frictional locking**.
 	- See e.g., Almeida et al. (2018) and Lindsey et al. (2021).
 - More offshore data is needed to probe fault friction and other parameters. 

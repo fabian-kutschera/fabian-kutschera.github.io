@@ -18,7 +18,7 @@ My lightning talk entitled "**3D fully coupled earthquake dynamic rupture and ts
 1. What can we learn when combining earthquake dynamic rupture models and tsunami simulations?
 2. Does source complexity govern tsunami generation?
 
-I had the chance to address those points in more detail during the CRESCENT Tsunami Topcial Workshop, which took place November 7-8 at the University of Oregon, Eugene. I recommend to check out this blog post for more information: [The science of planning for future tsunamis](2024-scec-dynamic-rupture-workshop)
+I had the chance to address those points in more detail during the CRESCENT Tsunami Topcial Workshop, which took place November 7-8 at the University of Oregon, Eugene. I recommend to check out this blog post for more information: [The science of planning for future tsunamis](crescent-tsunami-workshop).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4zL0r1a07WU?si=UWdwmi9fyE2fIxdu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

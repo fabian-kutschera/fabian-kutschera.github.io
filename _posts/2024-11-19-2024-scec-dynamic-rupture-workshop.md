@@ -13,7 +13,7 @@ On November 4th 2024, the SCEC Dynamic Rupture community convened online and tac
 
 **49 participants** registered for the workshop and discussed updates to computational codes. Group leaders presented state-of-the-art science teams are working on, which can be found [here](https://www.scec.org/events/2024-scec-dynamic-rupture-workshop). Students, postdocs, and early career scientists also had the opportunity to share new discoveries for the dynamic rupture community using 100-second lightning talks.
 
-My lightning talk entitled "**3D fully coupled earthquake dynamic rupture and tsunami modeling**" is linked below has two governing research questions:
+My lightning talk entitled "**3D fully coupled earthquake dynamic rupture and tsunami modeling**" is linked below and has two governing research questions:
 
 1. What can we learn when combining earthquake dynamic rupture models and tsunami simulations?
 2. Does source complexity govern tsunami generation?

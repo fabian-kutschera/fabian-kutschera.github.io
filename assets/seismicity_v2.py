@@ -59,6 +59,14 @@ for i in range(len(gdf)):
         url_nodal_plane = gdf["detail"].iloc[i]
         response = requests.get(url_nodal_plane)
         mt_geojson = response.json()
+
+        # failsafe
+        try:
+            moment_tensor = mt_geojson["properties"]["products"]["moment-tensor"]
+            print("Moment Tensor data found.")
+        except KeyError:
+            print("Key 'moment-tensor' not found. Exiting.")
+            break  
         
         # check if nodal-planes can be found 
         for i in range(len(mt_geojson["properties"]["products"]["moment-tensor"])):

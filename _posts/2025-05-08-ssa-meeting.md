@@ -12,11 +12,21 @@ tags:
 I was honored to be one of the 2025 Student Travel Grant Recipients of the Seismological Society of America (see [
 Past Annual Meeting Travel Grant Recipients](https://www.seismosoc.org/awards/travel-grant-types/past-annual-meeting-travel-grant-recipients)), which allowed me to attend their annual meeting in Baltimore, MD, from April 14-18. Here, I had once more the opportunity to present recently published work on the [Noto Peninsula earthquake and tsunami](https://doi.org/10.1029/2024GL109790), highlighting the need of using accurate earthquake models that incorporate realistic fault geometries for rapid tsunami modeling and early warning.
 
+A summary of the meeting program together will all submitted abstracts is available below:
+
+<div class="centered">
+    <object class="pdf" 
+      data="https://meetings.seismosoc.org/wp-content/uploads/2025/03/SSA-Program-2025-Rev-H.pdf"
+      width="850"
+      height="1000">
+    </object>
+</div>
+
+The received travel grant was made possible by member contributions to the Kanamori Fund and the Annual Meeting Travel Grant Fund.
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/fabian-kutschera/fabian-kutschera.github.io/master/assets/images/post_ssa25_group.jpg" />
 </p>
-
-The received travel grant was made possible by member contributions to the Kanamori Fund and the Annual Meeting Travel Grant Fund.
 
 ---
 

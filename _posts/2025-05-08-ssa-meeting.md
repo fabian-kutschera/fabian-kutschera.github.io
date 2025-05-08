@@ -1,7 +1,7 @@
 ---
 title: SSA 2025 Annual Meeting
 layout: post
-post-image: "https://raw.githubusercontent.com/fabian-kutschera/fabian-kutschera.github.io/master/assets/images/post_ssa25.png"
+post-image: "https://raw.githubusercontent.com/fabian-kutschera/fabian-kutschera.github.io/master/assets/images/post_ssa25.jpg"
 description: The Seismological Society of America (SSA) Annual Meeting in Baltimore, Maryland, 14-18 April 2025.
 tags:
   - conference
@@ -16,9 +16,7 @@ Past Annual Meeting Travel Grant Recipients](https://www.seismosoc.org/awards/tr
   <img src="https://raw.githubusercontent.com/fabian-kutschera/fabian-kutschera.github.io/master/assets/images/post_ssa25_group.jpg" />
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/fabian-kutschera/fabian-kutschera.github.io/master/assets/images/post_ssa25_presentation.jpg" />
-</p>
+The received travel grant was made possible by member contributions to the Kanamori Fund and the Annual Meeting Travel Grant Fund.
 
 ---
 

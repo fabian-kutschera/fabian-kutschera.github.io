@@ -17,7 +17,7 @@ A summary of the meeting program together will all submitted abstracts is availa
 <div class="centered">
     <object class="pdf" 
       data="https://meetings.seismosoc.org/wp-content/uploads/2025/03/SSA-Program-2025-Rev-H.pdf"
-      width="850"
+      width="1700"
       height="1000">
     </object>
 </div>

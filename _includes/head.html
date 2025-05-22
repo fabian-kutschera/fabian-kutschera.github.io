@@ -2,11 +2,9 @@
     {% include meta.html %}
     <title>{{site.title}}</title>
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
-
-    <!-- Use Font Awesome via CDN instead of kit -->
-    <!--  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" integrity="sha384-uF8sl2r+Utd6APxI1i6vZrFhVHtM1RfYhBrTZwnuqERF4FPx69GeUP/86PvEoN9x" crossorigin="anonymous"> -->
-    <!-- Add this if Font Awesome is not already included -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-dNc2J6dLZtT5J8R9dVvmlZrFlFCP2F8ONKcQ+rg+V1GnD2QXfj3LAL0yZf+w1Zbo1+OaTR4fC9+ZJyQeG6JdKw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <!-- <link rel="stylesheet" href="{% if site.baseurl %}{{site.baseurl}}{% else %}{% endif %}./assets/css/style.css"> -->
+    <script src="https://kit.fontawesome.com/6bcafb259f.js" crossorigin="anonymous"></script>
+    <!-- useful page: https://stackoverflow.com/questions/6121725/favicon-ico-or-png-correct-tags -->
     <link rel="shortcut icon" href="{% if site.favicon-url %}{{site.favicon-url}}{% else %}{{ 'assets/images/logo.png' | absolute_url }}{% endif %}" type="image/x-icon">
+    <!-- <link rel='shortcut icon' type='image/x-icon' href='../assets/images/favicon.ico'> --> <!-- IE -->
 </head>

@@ -1,4 +1,4 @@
-<img width="1110" alt="image" src="https://github.com/user-attachments/assets/0b18fcea-fdcb-4787-a373-6e2e23f74c4c" />---
+---
 title: SSA 2025 Annual Meeting
 layout: post
 post-image: "https://raw.githubusercontent.com/fabian-kutschera/fabian-kutschera.github.io/master/assets/images/post_ssa25.jpg"

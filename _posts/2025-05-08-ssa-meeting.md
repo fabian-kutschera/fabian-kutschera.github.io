@@ -12,7 +12,13 @@ tags:
 I was honored to be one of the 2025 Student Travel Grant Recipients of the Seismological Society of America (see [
 Past Annual Meeting Travel Grant Recipients](https://www.seismosoc.org/awards/travel-grant-types/past-annual-meeting-travel-grant-recipients)), which allowed me to attend their annual meeting in Baltimore, MD, from April 14-18. Here, I had once more the opportunity to present recently published work on the [Noto Peninsula earthquake and tsunami](https://doi.org/10.1029/2024GL109790), highlighting the need of using accurate earthquake models that incorporate realistic fault geometries for rapid tsunami modeling and early warning.
 
-A summary of the meeting program together will all submitted abstracts is available below:
+The received travel grant was made possible by member contributions to the Kanamori Fund and the Annual Meeting Travel Grant Fund.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/fabian-kutschera/fabian-kutschera.github.io/master/assets/images/post_ssa25_group.jpg" />
+</p>
+
+A summary of the meeting program, together with all submitted abstracts, is available below:
 
 <div class="centered">
     <object class="pdf" 
@@ -22,12 +28,6 @@ A summary of the meeting program together will all submitted abstracts is availa
     </object>
 </div>
 
-The received travel grant was made possible by member contributions to the Kanamori Fund and the Annual Meeting Travel Grant Fund.
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/fabian-kutschera/fabian-kutschera.github.io/master/assets/images/post_ssa25_group.jpg" />
-</p>
-
 ---
 
-A huge thanks to the SSA staff for the organization and of course to all attendees who made this conference a great success. This concludes this blog post for now. No liability is taken for the accuracy, completeness or timeliness.
+A huge thanks to the SSA staff for organizing this conference and, of course, to all attendees who made it a great success. This concludes this blog post for now. No liability is taken for the accuracy, completeness, or timeliness.

@@ -15,6 +15,13 @@
                 <i class="fas fa-envelope"></i>Send me an Email
             </a>
             {% endunless %}
+            {% unless site.google_scholar_id == %}
+            <a id="contact-button" href="https://scholar.google.com/citations?user={{site.google_scholar_id}}"
+                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
+                target="_blank">
+                <i class="fas fa-graduation-cap"></i>View my Google Scholar
+            </a>
+            {% endunless %}
             {% unless site.linkedin_username == %}
             <a id="contact-button" href="https://www.linkedin.com/in/{{site.linkedin_username}}"
                 class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"

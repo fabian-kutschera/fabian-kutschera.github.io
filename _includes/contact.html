@@ -38,9 +38,15 @@
             {% endunless %}
             <hr>
             <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-black is-marginless">
-                You Can find me here
+                You can find me here
             </h3>
             <div class="column is-full is-size-3">
+                {% unless site.google_scholar_id == %}
+                <a href="https://scholar.google.com/citations?user={{site.google_scholar_id}}" target="_blank" class="has-text-black"><i class="fas fa-graduation-cap"></i></a>
+                {% endunless %}
+                {% unless site.linkedin_username ==  %}
+                <a href="http://www.linkedin.com/in/{{site.linkedin_username}}" target="_blank" class="has-text-black"><i class="fab fa-linkedin"></i></a>
+                {% endunless %}
                 {% unless site.facebook_username == %}
                 <a href="http://www.facebook.com/{{site.facebook_username}}" target="_blank" class="has-text-black"><i class="fab fa-facebook"></i></a>
                 {% endunless %}
@@ -49,9 +55,6 @@
                 {% endunless %}
                 {% unless site.instagram_username ==  %}
                 <a href="http://www.instagram.com/{{site.instagram_username}}" target="_blank" class="has-text-black"><i class="fab fa-instagram"></i></a>
-                {% endunless %}
-                {% unless site.linkedin_username ==  %}
-                <a href="http://www.linkedin.com/in/{{site.linkedin_username}}" target="_blank" class="has-text-black"><i class="fab fa-linkedin"></i></a>
                 {% endunless %}
                 {% unless site.github_username ==  %}
                 <a href="http://www.github.com/{{site.github_username}}" target="_blank" class="has-text-black"><i class="fab fa-github"></i></a>

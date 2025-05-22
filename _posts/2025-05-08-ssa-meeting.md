@@ -28,7 +28,7 @@ A summary of the meeting program, together with all submitted abstracts, can be 
 
 > SSA 2025 Annual Meeting. Seismological Research Letters 2025; 96 (2B): 1241–1490. doi: https://doi.org/10.1785/0220250104,
 
-or is freely accessible available below:
+or is freely accessible below:
 
 <div class="centered">
     <object class="pdf" 

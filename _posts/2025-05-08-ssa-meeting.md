@@ -13,7 +13,7 @@ I was honored to be one of the 2025 Student Travel Grant Recipients of the Seism
 Past Annual Meeting Travel Grant Recipients](https://www.seismosoc.org/awards/travel-grant-types/past-annual-meeting-travel-grant-recipients)), which allowed me to attend their annual meeting in Baltimore, MD, from April 14-18. Here, I had once more the opportunity to present recently published work on the [Noto Peninsula earthquake and tsunami](https://doi.org/10.1029/2024GL109790), highlighting the need of using accurate earthquake models that incorporate realistic fault geometries for rapid tsunami modeling and early warning.
 
 Key points of this work are:
-- Multiple CMT Bayesian inversion indicates **six subevents** with **bilateral** rupture propagation, and **delayed re-nucleation** at its hypocenter, consistent with fault weakening
+- Multiple CMT Bayesian inversion indicates **six subevents** with **bilateral** rupture propagation, and **delayed re-nucleation** at its hypocenter, consistent with fault weakening
 - The **multi-fault subevent model** aligns with known fault system geometries and is critical in explaining the observed tsunami
 - Analysis of alternative source models and of the multi-CMT ensemble shows **complex source effects** are important for realistic tsunami models
 - Our iterative approach does not require manual calibration and could potentially be deployed in tsunami early warning centers

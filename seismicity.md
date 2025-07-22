@@ -11,6 +11,10 @@ For this automated process the 7-day <a href="https://earthquake.usgs.gov/earthq
 
 Events are displayed top (newest) to bottom (oldest). No liability is taken for the accuracy, completeness or timeliness of the data/figures.
 
+![us7000qddu](assets/images/seismicity/us7000qddu.png)
+
+![us7000qe51](assets/images/seismicity/us7000qe51.png)
+
 ![us7000qdye](assets/images/seismicity/us7000qdye.png)
 
 ![us7000qdyl](assets/images/seismicity/us7000qdyl.png)

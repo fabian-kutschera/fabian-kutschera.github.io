@@ -17,9 +17,9 @@ Another successful [CRESCENT Annual Meeting](https://cascadiaquakes.org/2025/01/
 
 As part of the Annual Meeting, I had the opportunity to give a short overview of some of the recent work within the [DET Working Group](https://cascadiaquakes.org/det) entitled **"CRESCENT Tsunami Benchmark (TTPV1 and TTPV2): 3D fully coupled earthquake dynamic rupture and tsunami benchmarks with varying bathymetric complexity"**. With our benchmark exercise, we bring modelers together and provide a consistent framework to test numerical codes as computational infrastructure changes and model complexity increases. Our benchmark description can be found [here](https://doi.org/10.5281/zenodo.15389414). Keep an eye out for the next workshop on **"At the Shallow Frontier: Faulting, Deformation, and Tsunamigenesis in Cascadia"**, where we plan to dive more into the topics of 
 
-1) Physics of shallow tsunamigenesis
-2) Shallow faulting and deformation
-3) Implications for hazard and operational frameworks
+1. Physics of shallow tsunamigenesis
+2. Shallow faulting and deformation
+3. Implications for hazard and operational frameworks.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/fabian-kutschera/fabian-kutschera.github.io/master/assets/images/post_crescent3rd_02.png" />

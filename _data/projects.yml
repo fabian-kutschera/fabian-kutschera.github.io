@@ -1,3 +1,11 @@
+- name: CRESCENT Annual Meeting
+  link: https://cascadiaquakes.org/2025/01/22/october-2025-annual-meeting
+  image: /assets/images/template_CRESCENT.png
+  description: ""
+- name: Geo-INQUIRE Sicily Summer School 2025
+  link: https://doi.org/10.13127/misc/99/22
+  image: /assets/images/template_Geo-INQUIRE.jpg
+  description: ""
 - name: SSA 2025
   link: https://seismosoc.secure-platform.com/a/gallery/rounds/43/details/12763
   image: /assets/images/template_SSA.png
@@ -7,7 +15,7 @@
   image: /assets/images/template_AGU.png
   description: "The Multi-Segment Complexity of the 2024 Mw 7.5 Noto Peninsula Earthquake governs its Tsunami Generation"
 - name: CRESCENT Tsunami Topical Workshop 2024
-  link: https://cascadiaquakes.org/2024/07/10/11-7-8-2024-tsunami-topical-workshop/
+  link: https://cascadiaquakes.org/2024/07/10/11-7-8-2024-tsunami-topical-workshop
   image: /assets/images/template_CRESCENT.png
   description: "Does source complexity govern tsunami generation?"
 - name: NMEM 2024
@@ -46,3 +54,4 @@
   link: https://meetingorganizer.copernicus.org/EGU21/EGU21-15891.html
   image: /assets/images/template_egu.jpg
   description: Linking dynamic earthquake rupture to tsunami modeling for the Húsavík-Flatey transform fault system in North Iceland
+

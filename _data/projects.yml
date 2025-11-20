@@ -1,3 +1,7 @@
+- name: AGU 2025
+  link: https://agu.confex.com/agu/agu25/meetingapp.cgi/Person/1624161
+  image: /assets/images/template_AGU.png
+  description: ""
 - name: CRESCENT Annual Meeting
   link: https://cascadiaquakes.org/2025/01/22/october-2025-annual-meeting
   image: /assets/images/template_CRESCENT.png
@@ -54,4 +58,5 @@
   link: https://meetingorganizer.copernicus.org/EGU21/EGU21-15891.html
   image: /assets/images/template_egu.jpg
   description: Linking dynamic earthquake rupture to tsunami modeling for the Húsavík-Flatey transform fault system in North Iceland
+
 

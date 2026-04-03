@@ -11,7 +11,7 @@ repository: fabian-kutschera/fabian-kutschera.github.io
 # Title of the Site
 title: Fabian Kutschera
 # Description of the Site
-description: Geopyhsics PhD Student @ Scripps (UCSD)
+description: Geophysics PhD Student @ Scripps (UCSD)
 # URL of Image of the Site
 site-image: /assets/images/Bewerbungsfoto_Hemd_quadrat.jpg
 # Keywords of the Site
@@ -48,8 +48,8 @@ author-name: Fabian Kutschera
 # URL for the Image of the Author
 author-image: /assets/images/Bewerbungsfoto_Hemd_quadrat.jpg
 # 60 Words About the Author
-author-about: I am currently a Geopyhsics PhD student at the Institute of Geophysics and Planetary Physics (IGPP), a division of the Scripps Institution of Oceanography (SIO), part of UC San Diego (UCSD). In 2023, I completed the International Masters Programme in Geophysics offered by LMU and TUM in Munich, Germany. My current focus lies on computational seismology, earthquake dynamic rupture modeling, and tsunami genesis caused by coseismic seafloor displacement. To investigate the underlying dynamics of earthquake-tsunami interaction, I apply physics-based approaches and use high performance computing. I had the opportunity to present the research conducted at the EGU General Assembly, AGU Fall Meeting, SCEC Annual Meeting, and at workshops such as NorthQuake in Iceland, NMEM in Slovakia, and CRESCENT meetings in the US. Please check the <a href="/publications">publications</a>/<a href="/conferences">conferences</a> tab for more information. I've been a TA for the EarthScope (formerly IRIS) Seismology Skill Building Workshop in the summer of 2023. In addition to academia, I gained first experience in the reinsurance industry and supported the Cat Risk Management Team (R&D, GIS and Portfolio Analytics) at Allianz SE Reinsurance.
-# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
+author-about: I am currently a Geophysics PhD student at the Institute of Geophysics and Planetary Physics (IGPP), a division of the Scripps Institution of Oceanography (SIO), part of UC San Diego (UCSD). In 2023, I completed the International Masters Programme in Geophysics offered by LMU and TUM in Munich, Germany. My current focus lies on computational seismology, earthquake dynamic rupture modeling, and tsunami genesis caused by coseismic seafloor displacement. To investigate the underlying dynamics of earthquake-tsunami interaction, I apply physics-based approaches and use high performance computing. I had the opportunity to present the research conducted at the EGU General Assembly, AGU Fall Meeting, SCEC Annual Meeting, and at workshops such as NorthQuake in Iceland, NMEM in Slovakia, and CRESCENT meetings in the US. Please check the <a href="/publications">publications</a>/<a href="/conferences">conferences</a> tab for more information. I've been a TA for the EarthScope (formerly IRIS) Seismology Skill Building Workshop in the summer of 2023. In addition to academia, I gained first experience in the reinsurance industry and supported the Cat Risk Management Team (R&D, GIS and Portfolio Analytics) at Allianz SE Reinsurance.
+# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc.)
 author-url: https://github.com/fabian-kutschera
 
 # SASS

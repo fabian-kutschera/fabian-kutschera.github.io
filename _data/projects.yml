@@ -1,3 +1,11 @@
+- name: Joint SeisSol & ExaHyPE User Workshop, Training and Hackathon
+  link: https://events.hifis.net/event/3608
+  image: https://events.hifis.net/event/3608/attachments/5170/10914/seissol_logo.png
+  description: ""
+- name: CRESCENT DET Topical Workshop 2026
+  link: https://cascadiaquakes.org/2026/04/05/det-topical-workshop
+  image: /assets/images/template_CRESCENT.png
+  description: ""
 - name: AGU 2025
   link: https://agu.confex.com/agu/agu25/meetingapp.cgi/Person/1624161
   image: /assets/images/template_AGU.png

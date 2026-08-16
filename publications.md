@@ -3,7 +3,10 @@ title: Publications
 layout: page
 ---
 
-## Peer-reviewed 
+## Peer-reviewed
+
+<div style="text-align: left"> Bachelot, L., <b>Kutschera, F.</b>, Barall, M., Erickson, B. A., Dunham, E. M., Gabriel, A.-A., Harris, R., Ma, S., Thomas, A. M., & Zhang, W. (2026). CRESCENT Earthquake Dynamic Rupture, Earthquake Cycle, and Tsunami Code Verification Platform. Seismica, 5(2). <a href="https://doi.org/10.26443/seismica.v5i2.2716" target="_blank">https://doi.org/10.26443/seismica.v5i2.2716</a> </div>
+&nbsp;
 
 <div style="text-align: left"> Wirp, S. A., <b>Kutschera, F.</b>, Ulrich, T., Bader, M., Lorito, S., & Gabriel, A.-A. (2026). Hellenic Arc tsunami generation from Mw8+ 3D margin-wide dynamic rupture earthquake scenarios. Geophysical Journal International, ggag181. <a href="https://doi.org/10.1093/gji/ggag181" target="_blank">https://doi.org/10.1093/gji/ggag181</a> </div>
 &nbsp;

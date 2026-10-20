@@ -22,6 +22,9 @@ layout: page
 
 ## Preprint(s)
 
+<div style="text-align: left"> Wong, J. W. C., Bruck, E. R., Gonzalez, R. G., Marchandon, M., Wu, B., <b>Kutschera, F.</b>, Zebker, M., Magen, Y., Fan, W., Fialko, Y., & Gabriel, A.-A. (2026). Fitful but sustained rupture of the 2026 Mw 7.6 Venezuela earthquake. EarthArXiv. <a href="https://doi.org/10.31223/X58B9R" target="_blank">https://doi.org/10.31223/X58B9R</a> </div>
+&nbsp;
+
 <div style="text-align: left"> Henneking, S., <b>Kutschera, F.</b>, Venkat, S., Gabriel, A.-A., & Ghattas, O. (2026). Real-time probabilistic tsunami forecasting in Cascadia from sparse offshore pressure observations (arXiv:2603.14966). arXiv. <a href="https://doi.org/10.48550/arXiv.2603.14966" target="_blank">https://doi.org/10.48550/arXiv.2603.14966</a> </div>
 &nbsp;
 

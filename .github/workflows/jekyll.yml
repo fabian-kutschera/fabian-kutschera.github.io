@@ -6,21 +6,18 @@ on:
   pull_request:
     branches: [ master ]
 
+permissions:
+  contents: read
+
 jobs:
   build:
-
     runs-on: ubuntu-24.04
-
     steps:
-    - uses: actions/checkout@v7
-    - name: Build the site in the jekyll/builder container
-      run: |
-        #docker run \
-        #-v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        #jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future --trace"
-        # https://github.com/envygeeks/jekyll-docker/issues/363
-        export JEKYLL_VERSION=4.3.3
-        docker run --rm \
-        --volume="$PWD:/srv/jekyll:Z" \
-        -t jvconseil/jekyll-docker:$JEKYLL_VERSION /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future --trace"
+      - name: Checkout repository
+        uses: actions/checkout@v7
 
+      - name: Build Jekyll site
+        uses: actions/jekyll-build-pages@v1
+        with:
+          future: true
+          verbose: true

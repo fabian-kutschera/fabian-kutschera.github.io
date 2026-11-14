@@ -29,16 +29,28 @@ jobs:
       - name: Set up the Python/GMT environment
         uses: mamba-org/setup-micromamba@v3
         with:
-          environment-file: .github/workflows/environment.yml
+          environment-file: .github/environment.yml
           environment-name: seismicity
           init-shell: bash
           cache-environment: true
           cache-downloads: true
 
-      - name: Verify environment
+      - name: Prepare writable GMT data directories
+        run: |
+          mkdir -p "$RUNNER_TEMP/gmt-user" "$RUNNER_TEMP/gmt-cache"
+          chmod 700 "$RUNNER_TEMP/gmt-user" "$RUNNER_TEMP/gmt-cache"
+          echo "GMT_USERDIR=$RUNNER_TEMP/gmt-user" >> "$GITHUB_ENV"
+          echo "GMT_CACHEDIR=$RUNNER_TEMP/gmt-cache" >> "$GITHUB_ENV"
+
+      - name: Verify Python, PyGMT, GMT, and GMT directories
         run: |
           python --version
-          python -c "import geopandas, pygmt; print('GeoPandas:', geopandas.__version__); print('PyGMT:', pygmt.__version__); pygmt.show_versions()"
+          gmt --version
+          python -c "import geopandas, pygmt; print('GeoPandas:', geopandas.__version__); print('PyGMT:', pygmt.__version__)"
+          printf 'GMT_USERDIR=%s\nGMT_CACHEDIR=%s\n' "$GMT_USERDIR" "$GMT_CACHEDIR"
+          test -d "$GMT_USERDIR" && test -w "$GMT_USERDIR"
+          test -d "$GMT_CACHEDIR" && test -w "$GMT_CACHEDIR"
+          gmt get GMT_DATA_SERVER
 
       - name: Run seismicity script
         run: python assets/seismicity_v2.py
@@ -47,7 +59,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           git add assets/README.log seismicity.md assets/images/seismicity/
 
           if git diff --cached --quiet; then

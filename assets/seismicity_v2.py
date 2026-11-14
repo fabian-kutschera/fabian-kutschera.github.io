@@ -1,13 +1,58 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-import geopandas as gpd
-import pygmt
 import os
 import datetime
-
 import requests
 
+# -----------------------------------------------------------------------------
+# Configure GMT before PyGMT starts its first GMT session.
+# Keep the directory paths supplied by GitHub Actions, but make sure they
+# exist and are accessible to GMT.
+# -----------------------------------------------------------------------------
+gmt_userdir = os.environ.get(
+    "GMT_USERDIR", os.path.join(os.path.expanduser("~"), ".gmt")
+)
+gmt_cachedir = os.environ.get(
+    "GMT_CACHEDIR", os.path.join(gmt_userdir, "cache")
+)
+gmt_sessiondir = os.environ.get(
+    "GMT_SESSIONDIR", os.path.join(gmt_userdir, "sessions")
+)
+
+for directory in (gmt_userdir, gmt_cachedir, gmt_sessiondir):
+    os.makedirs(directory, exist_ok=True)
+    if not os.access(directory, os.R_OK | os.W_OK | os.X_OK):
+        raise PermissionError(
+            f"GMT directory is not readable/writable: {directory}"
+        )
+
+# Make sure GMT sees the checked directories before its first session starts.
+os.environ["GMT_USERDIR"] = gmt_userdir
+os.environ["GMT_CACHEDIR"] = gmt_cachedir
+os.environ["GMT_SESSIONDIR"] = gmt_sessiondir
+
+import geopandas as gpd
+import pygmt
+from pygmt.clib import Session
+
+# GMT 6.6 can inherit a setting that disables remote downloads. PyGMT 0.19
+# does not expose the deprecated GMT_AUTO_DOWNLOAD setting through
+# pygmt.config, so set it directly through GMT's own `set` module.
+# GMT still supports this setting for backwards compatibility.
+with Session() as lib:
+    lib.call_module(
+        module="set",
+        args=[
+            "GMT_AUTO_DOWNLOAD=on",
+            "GMT_DATA_UPDATE_INTERVAL=1d",
+        ],
+    )
+
+print(f"GMT_USERDIR: {gmt_userdir}")
+print(f"GMT_CACHEDIR: {gmt_cachedir}")
+print(f"GMT_SESSIONDIR: {gmt_sessiondir}")
+print("GMT remote data downloads: enabled")
 
 # get current time
 date = datetime.datetime.today()

@@ -35,6 +35,7 @@ os.environ["GMT_SESSIONDIR"] = gmt_sessiondir
 import geopandas as gpd
 import pygmt
 from pygmt.clib import Session
+from pygmt.params import Box, Position
 
 # GMT 6.6 can inherit a setting that disables remote downloads. PyGMT 0.19
 # does not expose the deprecated GMT_AUTO_DOWNLOAD setting through
@@ -53,6 +54,7 @@ print(f"GMT_USERDIR: {gmt_userdir}")
 print(f"GMT_CACHEDIR: {gmt_cachedir}")
 print(f"GMT_SESSIONDIR: {gmt_sessiondir}")
 print("GMT remote data downloads: enabled")
+
 
 # get current time
 date = datetime.datetime.today()
@@ -194,8 +196,20 @@ for i in range(len(gdf)):
                 region=region,
                 projection="M12c",
                 frame=["af", "+t{}".format(title)],
-                map_scale="jBL+w200+o0.75c/0.55c+f+u",
-                box="+gwhite@50+r"
+            )
+
+            # Add a 200 km geographic scale bar. Keep GMT's original reference
+            # point at the bottom-left map corner (jBL); the offsets affect only
+            # where the bar is drawn, not the latitude used for its scale.
+            fig.scalebar(
+                length=200,
+                position=Position(
+                    "BL", cstype="inside", anchor="BL", offset=("0.75c", "0.55c")
+                ),
+                scale_loc=False,
+                fancy=True,
+                unit=True,
+                box=Box(fill="white@50", radius="6p"),
             )
             
             # plot faults from GEM GAF-DB
@@ -213,10 +227,10 @@ for i in range(len(gdf)):
                 depth=depth,
                 # Fill compressive quadrants with color "red"
                 # [Default is "black"]
-                compressionfill="red",
+                compression_fill="red",
                 # Fill extensive quadrants with color "cornsilk"
                 # [Default is "white"]
-                extensionfill="white",
+                extension_fill="white",
                 # Draw a 0.5 points thick dark gray ("gray30") solid outline via
                 # the pen parameter [Default is "0.25p,black,solid"]
                 pen="0.5p,gray30,solid",
@@ -224,7 +238,13 @@ for i in range(len(gdf)):
             
             fig.legend(position="JBR+jBR+o0.2c", box="+gwhite+p1p")
             
-            fig.text(text=time_str, position="TL", offset="0.2/-0.2c", fill="white@50")
+            fig.text(
+                text=time_str,
+                position="TL",
+                offset="0.2/-0.2c",
+                fill="white@50",
+                clearance="0.10c/0.08c+tO",
+            )
             
             fig.colorbar(frame=["af", "x+lElevation", "y+l[m]"])
             
@@ -235,7 +255,7 @@ for i in range(len(gdf)):
                       [region[0],region[2]]]
             
             # Orthographic
-            with fig.inset(position="JTR+w4c+o-1/-3c", margin=0, box=False):
+            with fig.inset(position="JTR+w4c+o-1/-3c", clearance=0, box=False):
                 fig.coast(projection='G{}/{}/4c'.format(lon,lat), 
                           region='g', 
                           frame='g', 

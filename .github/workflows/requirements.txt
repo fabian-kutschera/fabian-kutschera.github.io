@@ -1,4 +1,0 @@
-pygmt
-pandas
-geopandas
-requests

@@ -2,48 +2,58 @@ name: Significant Earthquakes
 
 on:
   schedule:
-    - cron: '0 */12 * * *'
+    # Run once per day at 07:17 local time (America/Los_Angeles).
+    - cron: '17 7 * * *'
+      timezone: America/Los_Angeles
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: significant-earthquakes
+  cancel-in-progress: false
 
 jobs:
   monitor:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
     defaults:
       run:
         shell: bash -el {0}
+
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Set up the Python/GMT environment
+        uses: mamba-org/setup-micromamba@v3
         with:
-          python-version: '3.10'
-      - name: Setup miniconda
-        uses: conda-incubator/setup-miniconda@v3
-        with:
-          channels: conda-forge
-          auto-activate-base: true
-          activate-environment: ""
-      - name: Install dependencies
+          environment-file: .github/workflows/environment.yml
+          environment-name: seismicity
+          init-shell: bash
+          cache-environment: true
+          cache-downloads: true
+
+      - name: Verify environment
         run: |
-          conda init bash
-          source /home/runner/.bashrc
-          source /usr/share/miniconda/bin/activate
-          conda install --yes --file .github/workflows/requirements.txt
-          conda config --add channels defaults
-          #pip install pandas-geojson
-      - name: Run script
+          python --version
+          python -c "import geopandas, pygmt; print('GeoPandas:', geopandas.__version__); print('PyGMT:', pygmt.__version__); pygmt.show_versions()"
+
+      - name: Run seismicity script
         run: python assets/seismicity_v2.py
-      - name: Setup git config
+
+      - name: Commit and push updates
         run: |
-          # Setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
-          # Inspired by https://lannonbr.com/blog/2019-12-09-git-commit-in-actions/
-          git config user.name "GitHub Actions Bot"
-          git config user.email "<>"
-      - name: Commit
-        run: |
-          # Stage the file, commit and push
-          # Timestamp inspired by https://askubuntu.com/questions/991712/get-current-date-and-time-to-commit-message-to-git
-          timestamp=$(date +"%D %T")
-          git add .
-          git commit -m "Update on $timestamp"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/README.log seismicity.md assets/images/seismicity/
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update significant earthquake maps"
           git push

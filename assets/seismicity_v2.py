@@ -1,13 +1,11 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-import pandas as pd
 import geopandas as gpd
 import pygmt
 import os
 import datetime
 
-import json
 import requests
 
 
@@ -57,7 +55,8 @@ for i in range(len(gdf)):
     else:
         # get detail incl. moment tensor
         url_nodal_plane = gdf["detail"].iloc[i]
-        response = requests.get(url_nodal_plane)
+        response = requests.get(url_nodal_plane, timeout=30)
+        response.raise_for_status()
         mt_geojson = response.json()
 
         # failsafe
@@ -127,7 +126,7 @@ for i in range(len(gdf)):
             fig = pygmt.Figure()
             pygmt.config(MAP_FRAME_TYPE="plain")
             
-            shadow_grid = pygmt.grdgradient(grid=topo, azimuth=260, normalize=1)
+            shadow_grid = pygmt.grdgradient(grid=topo, azimuth=260, normalize=True)
             
             fig.grdimage(
                 grid=topo,
@@ -203,7 +202,6 @@ for i in range(len(gdf)):
                 fig.plot(bounds, pen='1p,red')
 
             fig.savefig("assets/images/seismicity/{}.png".format(id_code))
-            fig.show()
 
  
             # Add to homepage

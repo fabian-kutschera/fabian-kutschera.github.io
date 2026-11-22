@@ -22,6 +22,9 @@ layout: page
 
 ## Preprint(s)
 
+<div style="text-align: left"> <b>Kutschera, F.</b> & Gabriel, A.-A. (2026). Source Representation and Earthquake-Ocean Coupling in Tsunami Generation by the 2020 Samos Normal-Faulting Earthquake. EarthArXiv. <a href="https://doi.org/10.31223/X5H23W" target="_blank">https://doi.org/10.31223/X5H23W</a> </div>
+&nbsp;
+
 <div style="text-align: left"> Wong, J. W. C., Bruck, E. R., Gonzalez, R. G., Marchandon, M., Wu, B., <b>Kutschera, F.</b>, Zebker, M., Magen, Y., Fan, W., Fialko, Y., & Gabriel, A.-A. (2026). Fitful but sustained rupture of the 2026 Mw 7.6 Venezuela earthquake. EarthArXiv. <a href="https://doi.org/10.31223/X58B9R" target="_blank">https://doi.org/10.31223/X58B9R</a> </div>
 &nbsp;
 

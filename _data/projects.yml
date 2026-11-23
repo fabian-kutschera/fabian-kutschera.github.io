@@ -1,3 +1,7 @@
+- name: AGU 2026
+  link: https://studio.m-anage.com/agu/agu26/meetingapp.cgi/Person/1624161
+  image: /assets/images/template_AGU.png
+  description: ""
 - name: Joint SeisSol & ExaHyPE User Workshop, Training and Hackathon
   link: https://events.hifis.net/event/3608
   image: https://events.hifis.net/event/3608/attachments/5170/10914/seissol_logo.png
